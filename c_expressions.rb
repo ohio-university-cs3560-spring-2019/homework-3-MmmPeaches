@@ -20,8 +20,8 @@ def reg_ex(str)
 end
 
 if !reg_ex(str)
-    puts "your input does not contain valid c++ characters for naming an identifier"
+    puts "false"
 else
-    puts "your input contians valid c++ characters for naming an identifier" 
+    puts "true" 
 end
 
